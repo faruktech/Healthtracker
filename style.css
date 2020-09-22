@@ -1,0 +1,288 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.bg-color{
+    background-color:  #f7f9ff;
+}
+
+
+
+/*Header-section*/
+
+
+
+
+
+.navbar-brand span {
+    background: #6278df;
+    color: #fff;
+    display: inline-block;
+    height: 42px;
+    width: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+}
+
+
+/*banner-section*/
+
+.banner-section {
+    background: url(http://127.0.0.1:52096/jillur%20course/cls%2031/Practice%202nd/image/mbr-10.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 130px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-section::after{
+    background: #000000;
+    opacity: 0.5;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.banner-title p {
+    font-size: 26px;
+}
+.banner-title h2 {
+    font-size: 47px;
+}
+
+/*number-section*/
+
+.counters{}
+.counters h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.counters p {
+    font-weight: 300;
+    font-size: 22px;
+}
+
+
+/*about-section*/
+
+
+.about-title {
+    margin-top: 105px;
+}
+.about-title h2{
+    font-size: 40px;
+}
+
+
+/*featurs-section*/
+
+.featurs-title{}
+.featurs-title h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+.featurs-title p {
+    font-size: 23px;
+    font-weight: 300;
+}
+.featurs-items{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    border-radius: 5px;
+}
+.list-item-image {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.list-item-image img {
+    height: 100%;
+    max-width: inherit;
+    width: auto! important;
+    position: relative;
+    left: -100px;
+}
+.list-item-text{
+    width: 60%;
+    padding: 20px;
+}
+
+/*portfolio-section*/
+
+
+.portfolio-title h3 {
+    font-size: 39px;
+    font-weight: 400;
+}
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #0089ff69;
+    opacity: 0;
+    transition: .2s;
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    
+}
+
+/*peicing-section*/
+
+.pricing-title{} 
+.pricing-title h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+.pricing-title p{}
+
+.pricing-item {
+    padding: 30px;
+}
+.pricing-item h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.pricing-item p{}
+.pricing-item ul {
+    list-style: none;
+    padding: 0;
+}
+.pricing-item ul li {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.pricing-item ul li span {
+    font-size: 30px;
+    display: inline-block;
+    color: #657be0;
+    width: 30px;
+    margin-right: 13px;
+}
+
+/*about-section*/
+
+.about-title{}
+.about-title p {
+    font-size: 26px;
+}
+.about-title h2 {
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: -10px;
+}
+.about-title span {
+    color: #ddd;
+    font-size: 70px;
+}
+
+
+
+.users-info {
+    width: 250px;
+    margin: auto;
+}
+.users-info img {
+    width: 84px;
+    margin-right: 20px;
+}
+.user-detail {
+    text-align: left;
+    position: relative;
+    top: 14px;
+    margin-bottom: 70px;
+}
+.users-detail h6{}
+.users-detail p{
+    font-size: 20px;
+}
+
+/*testimonial-section*/
+
+.card-image{}
+.card-image img {
+    width: 115px;
+    position: relative;
+    top: -55px;
+    margin-left: 11px;
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.1);
+    border: none;
+}
+.card-title {
+    margin-top: -50px;
+    padding: 5px;
+}
+.card-title h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.card-title h4 {
+    font-size: 22px;
+    font-weight: 300;
+}
+.card-title p {
+    font-size: 13px;
+    font-weight: 300;
+}
+.card-title button{}
+
+/*form-section*/
+
+.form-title{}
+.form-title p{}
+.form-title h2 {
+    font-size: 41px;
+    font-weight: 400;
+    padding-bottom: 27px;
+}
+.form-title h5 {
+    font-size: 23px;
+    padding: 12px;
+    font-weight: 600;
+}
+.form-title form{}
+
+.card-body {
+    padding: 0 30px 30px;
+}
+
+
+/*store-section*/
+
+
+.store-title button span {
+    margin-right: 5px;
+}
+.store-title h2 {
+    font-size: 49px;
+    width: 710px;
+    margin: auto;
+    font-weight: 400;
+    margin-top: 33px;
+}
+.store-title p {
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+
+
